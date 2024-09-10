@@ -1,7 +1,6 @@
-package org.haic.often.netdisc;
+package org.haic.netdisc;
 
-import org.jetbrains.annotations.NotNull;
-import org.haic.often.chrome.browser.LocalCookie;
+import org.haic.browser.LocalCookie;
 import org.haic.often.exception.YunPanException;
 import org.haic.often.net.download.SionDownload;
 import org.haic.often.net.http.Connection;
@@ -9,6 +8,7 @@ import org.haic.often.net.http.HttpsUtil;
 import org.haic.often.parser.json.JSONArray;
 import org.haic.often.parser.json.JSONObject;
 import org.haic.often.util.Base64Util;
+import org.jetbrains.annotations.NotNull;
 
 import java.text.SimpleDateFormat;
 import java.util.*;

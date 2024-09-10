@@ -1,6 +1,6 @@
-package org.haic.often.netdisc;
+package org.haic.netdisc;
 
-import org.haic.often.chrome.browser.LocalCookie;
+import org.haic.browser.LocalCookie;
 import org.haic.often.exception.YunPanException;
 import org.haic.often.net.http.Connection;
 import org.haic.often.net.http.HttpsUtil;
